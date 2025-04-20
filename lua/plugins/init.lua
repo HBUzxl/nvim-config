@@ -7,4 +7,5 @@ return {
   require("plugins.toggleterm"),   -- 终端标签栏
   require("plugins.completion"),   -- 自动补全
   require("plugins.matchup"),      -- 括号高亮
+  require("plugins.treesitter"),   -- 语法高亮/代码解析
 }
