@@ -4,4 +4,5 @@ return {
   require("plugins.tokyonight"),   -- 主题
   require("plugins.lualine"),      -- 底部状态栏
   require("plugins.bufferline"),   -- 顶部标签栏
+  require("plugins.toggleterm"),   -- 终端标签栏
 }
