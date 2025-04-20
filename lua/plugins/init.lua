@@ -6,4 +6,5 @@ return {
   require("plugins.bufferline"),   -- 顶部标签栏
   require("plugins.toggleterm"),   -- 终端标签栏
   require("plugins.completion"),   -- 自动补全
+  require("plugins.matchup"),      -- 括号高亮
 }
