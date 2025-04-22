@@ -9,4 +9,5 @@ return {
   require("plugins.matchup"),      -- 括号高亮
   require("plugins.treesitter"),   -- 语法高亮/代码解析
   require("plugins.telescope"),    -- 模糊搜索
+  require("plugins.alpha-nvim"),   -- 主页
 }

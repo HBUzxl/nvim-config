@@ -8,5 +8,6 @@ return {
       vim.keymap.set("n", "<leader>ff", builtin.find_files, {}) -- 搜索文件
       vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})  -- 搜索字符串
       vim.keymap.set("n", "<leader>fb", builtin.buffers, {})    -- 搜索缓冲区
+      vim.keymap.set("n", "<leader>fh", builtin.oldfiles, {})   -- 最近打开的文件
     end,
   }
