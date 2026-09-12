@@ -21,6 +21,9 @@ return {
           -- account/*.bean 里已 open 的账户误报为 "unknown account"。
           init_options = {
             journal_file = "main.bean",
+            formatting = {
+              currency_column = 50,
+            },
           },
         },
       },
