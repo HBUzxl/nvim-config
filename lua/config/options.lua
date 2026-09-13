@@ -2,6 +2,9 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+-- Spell check English but ignore CJK characters (avoids underlines on Chinese text)
+vim.opt.spelllang = { "en", "cjk" }
+
 -- Clipboard: force OSC 52 provider so yanks reach the LOCAL machine's
 -- clipboard (macOS) through herdr's remote bridge, even though this is a
 -- headless SSH server with no clipboard tools installed.
